@@ -22,7 +22,7 @@
   "scripts": {
     "test": "babel-node ./src/api/app.js",
     "dev": "nodemon --exec babel-node ./src/app.js",
-    "start": "babel-node ./src/app.js"
+    "start": "babel-node ./src/api/app.js"
   },
   "keywords": [],
   "author": "",
